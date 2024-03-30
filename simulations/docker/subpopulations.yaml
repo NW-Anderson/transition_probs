@@ -1,0 +1,17 @@
+time_units: generations
+defaults:
+  epoch: {start_size: 200, end_time: 0}
+demes:
+- name: ancestral
+  epochs:
+  - {start_size: 2000, end_time: 100}
+- {name: line1, ancestors: [ancestral]}
+- {name: line2, ancestors: [ancestral]}
+- {name: line3, ancestors: [ancestral]}
+- {name: line4, ancestors: [ancestral]}
+- {name: line5, ancestors: [ancestral]}
+- {name: line6, ancestors: [ancestral]}
+- {name: line7, ancestors: [ancestral]}
+- {name: line8, ancestors: [ancestral]}
+- {name: line9, ancestors: [ancestral]}
+- {name: line10, ancestors: [ancestral]}
