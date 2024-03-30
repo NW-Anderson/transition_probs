@@ -4,6 +4,5 @@ Code used in "A Path Integral Approach for Allele Frequency Dynamics Under Polyg
 TODO: 
 * Add docs for path_integrals
 * Add docs for simulations
-* Add code for unlinked simulations
 * Add plotting code
 * Add manuscript code
