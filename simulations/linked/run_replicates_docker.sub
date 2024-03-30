@@ -1,0 +1,20 @@
+universe = docker
+docker_image = ghcr.io/nw-anderson/transition_probs
+docker_pull_policy = always
+
+log = logs/sim_$(Cluster).log
++LongJob = true
+
+arguments = $(seed) $(mut_rate) $(effect_size) 
+
+output = outs/sim_$(Cluster)_$(Process).out
+error = errs/sim_$(Cluster)_$(Process).err
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+request_cpus = 1
+request_memory = 32GB
+request_disk = 32GB
+
+queue seed,mut_rate,effect_size from ../params.txt
