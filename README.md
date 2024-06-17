@@ -12,6 +12,9 @@ Contains some miscellaneous scripts to clean the output of the simulation or mat
 ## Figures 
 Contains ggplot scripts to make figures, as well as pdfs of the figures used in the manuscript
 
+##Manuscript 
+Contains a zip of all of the files needed by latex to make the manuscript 
+
 ## PathIntegrals
 Contains scripts to compute the path integral solution to the diffusion (genic, underdominance and polygenic adaptation). These expressions are saved and then evaluated in "Analyses"
 
