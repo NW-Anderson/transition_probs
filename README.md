@@ -12,7 +12,7 @@ Contains some miscellaneous scripts to clean the output of the simulation or mat
 ## Figures 
 Contains ggplot scripts to make figures, as well as pdfs of the figures used in the manuscript
 
-##Manuscript 
+## Manuscript 
 Contains a zip of all of the files needed by latex to make the manuscript 
 
 ## PathIntegrals
